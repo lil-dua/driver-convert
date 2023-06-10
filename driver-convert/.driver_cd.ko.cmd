@@ -1,0 +1,1 @@
+cmd_/home/lkhanh99/Desktop/BTL_chuyendoi/driver_cd.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /home/lkhanh99/Desktop/BTL_chuyendoi/driver_cd.ko /home/lkhanh99/Desktop/BTL_chuyendoi/driver_cd.o /home/lkhanh99/Desktop/BTL_chuyendoi/driver_cd.mod.o;  true
